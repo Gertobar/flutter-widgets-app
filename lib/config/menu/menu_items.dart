@@ -7,13 +7,11 @@ class MenuItem {
   final IconData icon;
 
   const MenuItem({
-    required this.title, 
-    required this.subTitle, 
-    required this.link, 
-    required this.icon
-    });
-
-
+    required this.title,
+    required this.subTitle,
+    required this.link,
+    required this.icon,
+  });
 }
 
 const appMenuItem = <MenuItem>[
@@ -21,12 +19,20 @@ const appMenuItem = <MenuItem>[
     title: 'Botones',
     subTitle: 'Varios Botones en Flutter',
     link: '/buttons',
-    icon: Icons.smart_button_outlined
+    icon: Icons.smart_button_outlined,
   ),
-    MenuItem(
+
+  MenuItem(
     title: 'Tarjetas',
     subTitle: 'Varios Botones en Flutter',
     link: '/cards',
-    icon: Icons.smart_button_outlined
-  ),  
+    icon: Icons.smart_button_outlined,
+  ),
+
+  MenuItem(
+    title: 'ProgressIndicators',
+    subTitle: 'Generales y controlados',
+    link: '/progress',
+    icon: Icons.refresh_rounded,
+  ),
 ];

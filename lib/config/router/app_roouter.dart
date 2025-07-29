@@ -2,6 +2,7 @@ import 'package:go_router/go_router.dart';
 import 'package:widgests_app/features/presentation/screens/buttons/buttons_screen.dart';
 import 'package:widgests_app/features/presentation/screens/cards/cards_screen.dart';
 import 'package:widgests_app/features/presentation/screens/home/home_screen.dart' show HomeScreen;
+import 'package:widgests_app/features/presentation/screens/progress/progress_screen.dart';
 
 // GoRouter configuration
 final appRouter = GoRouter(
@@ -23,6 +24,12 @@ final appRouter = GoRouter(
       path: '/cards',
       name: CardsScreen.name,
       builder: (context, state) => CardsScreen(),
+    ),
+
+        GoRoute(
+      path: '/progress',
+      name: ProgressScreen.name,
+      builder: (context, state) => ProgressScreen(),
     ),
   ],
 );
