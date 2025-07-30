@@ -42,4 +42,25 @@ const appMenuItem = <MenuItem>[
     link: '/snackbars',
     icon: Icons.info_outline,
   ),
+
+    MenuItem(
+    title: 'Animated container',
+    subTitle: 'Statefull widget animated',
+    link: '/animated',
+    icon: Icons.check_box_outlined,
+  ),
+
+  MenuItem(
+    title: 'UI Controls + Tiles',
+    subTitle: 'A series of controls in flutter',
+    link: '/ui-controls',
+    icon: Icons.car_rental_outlined,
+  ),
+
+  MenuItem(
+    title: 'Introduction of application',
+    subTitle: 'small application tutorial',
+    link: '/tutorial',
+    icon: Icons.accessibility_rounded,
+  ),
 ];
