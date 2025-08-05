@@ -1,4 +1,5 @@
-
+export 'package:widgests_app/features/presentation/screens/theme_changer/theme_changer_screen.dart';
+export 'package:widgests_app/features/presentation/screens/counter/counter_screen.dart';
 export 'package:widgests_app/features/presentation/screens/animated/animated_screen.dart';
 export 'package:widgests_app/features/presentation/screens/app_tutorial/app_tutorial_screen.dart';
 export 'package:widgests_app/features/presentation/screens/buttons/buttons_screen.dart';

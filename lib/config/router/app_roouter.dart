@@ -1,6 +1,7 @@
 import 'package:go_router/go_router.dart';
 import 'package:widgests_app/features/presentation/screens/buttons/buttons_screen.dart';
 import 'package:widgests_app/features/presentation/screens/cards/cards_screen.dart';
+import 'package:widgests_app/features/presentation/screens/counter/counter_screen.dart';
 import 'package:widgests_app/features/presentation/screens/home/home_screen.dart'show HomeScreen;
 import 'package:widgests_app/features/presentation/screens/progress/progress_screen.dart';
 import 'package:widgests_app/features/presentation/screens/screens.dart';
@@ -55,6 +56,24 @@ final appRouter = GoRouter(
       path: '/tutorial',
       name: AppTutorialScreen.name,
       builder: (context, state) => AppTutorialScreen(),
+    ),
+
+    GoRoute(
+      path: '/infinite',
+      name: InfiniteScrollScreen.name,
+      builder: (context, state) => InfiniteScrollScreen(),
+    ),
+
+    GoRoute(
+      path: '/counter-riverpod',
+      name: CounterScreen.name,
+      builder: (context, state) => CounterScreen(),
+    ),
+
+    GoRoute(
+      path: '/theme-changer',
+      name: ThemeChangerScreen.name,
+      builder: (context, state) => ThemeChangerScreen(),
     ),
   ],
 );
